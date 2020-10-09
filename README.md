@@ -31,4 +31,5 @@ SCSCL.h/SCSCL.cpp---SCSCL应用层程序
 (内存表定义于应用层程序头文件SMSBL.h\SMSCL.h\SCSCL.h中不同系列舵内存表定义存在差异)
                        
 SCS类<---SCSerail类<---SMSCL类/SMSBL类/SCSCL类
-                       
+
+site: https://gitee.com/ftservo
