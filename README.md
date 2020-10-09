@@ -1,6 +1,6 @@
 # SCServo_arduino_lib
 Arduino library for SCS TTL servo
-
+----------------------------
 通信层:SCS
 ----------------------------
 硬件接口层:SCSerail
@@ -13,7 +13,8 @@ SMSBL smbl;//定义无SMBL系列舵机
 SMSCL smcl;//定义无SM系列舵机
 SCSCL sc;//定义无SC系列舵机
 SM\SMBL\SC各自接口参考相应头文件
-
+----------------------------
+简要
 ----------------------------
 
 INST.h---指令定义头文件
@@ -24,8 +25,7 @@ SMSCL.h/SMSCL.cpp---SM应用层程序
 SCSCL.h/SCSCL.cpp---SCSCL应用层程序
 (内存表定义于应用层程序头文件SMSBL.h\SMSCL.h\SCSCL.h中不同系列舵内存表定义存在差异)
 
-----------------------------
 
-                       SMSBL类
-SCS类<---SCSerail类<---SMSCL类
-                       SCSCL类
+                       
+SCS类<---SCSerail类<---SMSCL类/SMSBL类/SCSCL类
+                       
