@@ -6,6 +6,7 @@ Arduino library for SCS TTL servo
 硬件接口层:SCSerail
 ----------------------------
 应用层:SMSBL SMSCL SCSCL分别对应飞特三个系列舵机
+----------------------------
 
 SMSBL smbl;//定义无SMBL系列舵机
 
